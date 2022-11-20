@@ -2,7 +2,7 @@
 A set of source files necessary to compile a linux executable using a steam API .so library. Doesn't actually get compiled.  
 # File descriptions:  
 * *headers* - a collection of all the headers used by steam API
-* *linux32* - put it here just "in case" - the used .so file is x64
+* *linux32* - put it here for  "just in case" reasons - the used .so file is x64
 * *sdk* - a literal copy of the headers files above, except it's located in the "original" path
 * *PDTracker.cpp* - the main code file. It's win-compiled file is working fine, the only difference here is the "#pragma comment" lib link
 * *libsteam_api.so* - a library, a linux-compatible analog of steam_api64.dll
