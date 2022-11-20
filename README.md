@@ -9,5 +9,5 @@ A set of source files necessary to compile a linux executable using a steam API 
 * *steam_appid.txt* - just a .txt with PDTH's app id. Shouldn't be necessary for the release executable file, left as a precaution
 # Tested g++ command:
 `$ g++ -L./ -l:libsteam_api.so -oPDTracker PDTracker.cpp`  
-**command description:** telling gcc to compile a C++ code in a *PDtracker.cpp* file into a *PDTracker* executable located in a local directory ( *./* ) with the use of *libsteam_api.so* library  
+**command description:** telling gcc to compile a C++ code in the *PDtracker.cpp* file into a *PDTracker* executable located in a local directory ( *./* ) with the use of the *libsteam_api.so* library  
 **issue:** undefined references to steam API functions  
