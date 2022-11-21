@@ -5,6 +5,7 @@ A set of source files necessary to compile a linux executable using a steam API 
 *  C++ compiling tools (only using g++, no make)
 *  Steamworks SDK source files (if unsure of validity of the files in the repo, get your own archive [here](https://partner.steamgames.com) (juts log into your steam account) - you'll need the **header files** located in *sdk/public/steam/* and the **libsteam_api.so** in *sdk/redistributable_bin/linux64/*
 *  installed and running Steam client - only necessary for testing the compiled executable
+*  a copy of PDTH in your steam library - only necessary for testing the compiled executable, having the game installed is not required
 # File descriptions:  
 * *headers* - a collection of all the headers used by steam API
 * *linux32* - put it here for  "just in case" reasons - the used .so file is x64
