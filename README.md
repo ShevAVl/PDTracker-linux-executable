@@ -1,5 +1,10 @@
 # PDTracker-linux-executable  
 A set of source files necessary to compile a linux executable using a steam API .so library. Doesn't actually get compiled.  
+# Requirements
+*  a machine running on linux (using Ubuntu 22.04 myself)
+*  C++ compiling tools (only using g++, no make)
+*  Steamworks SDK source files (if unsure of validity of the files in the repo, get your own archive [here](https://partner.steamgames.com)(juts log into your steam account) - you'll need the **header files** located in *sdk/public/steam/* and the **libsteam_api.so** in *sdk/redistributable_bin/linux64/*
+*  installed and running Steam client - only necessary for testing the compiled executable
 # File descriptions:  
 * *headers* - a collection of all the headers used by steam API
 * *linux32* - put it here for  "just in case" reasons - the used .so file is x64
