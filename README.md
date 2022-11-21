@@ -11,3 +11,5 @@ A set of source files necessary to compile a linux executable using a steam API 
 `$ g++ -L./ -l:libsteam_api.so -oPDTracker PDTracker.cpp`  
 **command description:** telling gcc to compile a C++ code in the *PDtracker.cpp* file into a *PDTracker* executable located in a local directory ( *./* ) with the use of the *libsteam_api.so* library  
 **issue:** undefined references to steam API functions  
+# Expected output
+For the working program, the result should be a *lobbies.txt* file (created if didn't exist before) consisting of either a error message (connection failed/no lobbies) or the info about currently active PDTH lobbies. Running Steam client with PDTH in the library is required.
