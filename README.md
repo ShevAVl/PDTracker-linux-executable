@@ -17,6 +17,6 @@ A set of source files necessary to compile a linux executable using a steam API 
 **command description:** telling gcc to compile a C++ code in the *PDtracker.cpp* file into a *PDTracker* executable located in a local directory ( *./* ) with the use of the *libsteam_api.so* library  
 **issue:** undefined references to steam API functions  
 # Expected output
-For the working program, the result should be a *lobbies.txt* file (created if didn't exist before) consisting of either a error message (connection failed/no lobbies) or the info about currently active PDTH lobbies. Running Steam client with PDTH in the library is required.
+For the working program, the result should be a *lobbies.txt* file (created if didn't exist before) consisting of either an error message (connection failed/no lobbies) or the info about currently active PDTH lobbies. Running Steam client with PDTH in the library is required.
 # Potential starting point
 To get behind the process it might be a good practice to replicate a compilation process shown on this thread [here](https://stackoverflow.com/questions/65461498/how-do-you-compile-script-using-steamworks-sdk-on-linux) (can't get this to work legit lost for words).
