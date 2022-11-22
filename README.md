@@ -12,7 +12,7 @@ A set of source files necessary to compile a linux executable using a steam API 
 * *sdk* - a literal copy of the headers above, except it's located in the "original" path (how the original sdk archive stores them)
 * *PDTracker.cpp* - the main code file. The windows-compatible counterpart is working fine, the only difference here is the "#pragma comment" lib link
 * *libsteam_api.so* - a library, a linux-compatible analog of steam_api64.dll
-* *steam_appid.txt* - just a .txt with PDTH's app id. Shouldn't be necessary for the release executable file, left as a precaution
+* *steam_appid.txt* - just a .txt with PDTH's app id
 # Tested g++ command:
 `$ g++ -L./ -l:libsteam_api.so -oPDTracker PDTracker.cpp`  
 **command description:** telling gcc to compile a C++ code in the *PDtracker.cpp* file into a *PDTracker* executable located in a local directory ( *./* ) with the use of the *libsteam_api.so* library  
