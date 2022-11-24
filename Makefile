@@ -25,7 +25,7 @@ SDK_ZIP_FILEPATH ?=
 SDK_NAME ?= steamworks_sdk.zip
 
 # download Steamworks' SDK in case it hasn't been downloaded yet
-# specify the variable below in case has already been downloaded to a different location
+# specify the variable below in case SDK has already been downloaded to a different location
 ifeq ($(SDK_ZIP_FILEPATH),)
 	SDK_ZIP_FILEPATH = ./build/$(SDK_NAME)
 download-sdk:
