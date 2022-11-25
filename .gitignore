@@ -1,0 +1,10 @@
+# third party modules
+lib/
+sdk/
+
+# build directory
+build/
+
+# misc files
+lobbies.txt
+steam_appid.txt

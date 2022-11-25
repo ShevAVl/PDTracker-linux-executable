@@ -1,13 +1,12 @@
 #pragma comment(lib, "libsteam_api.so")
 
-#include <iostream>
-#include <fstream>
-#include <string>
+#include "steam_api.h"
+
 #include <chrono>
+#include <fstream>
+#include <iostream>
+#include <string>
 #include <thread>
-//the original path to the headers is "./sdk/public/steam/....h"
-#include "headers/steam_api.h"
-#include "headers/isteammatchmaking.h"
 
 class LobbyListManager {
 	CCallResult <LobbyListManager, LobbyMatchList_t> m_CallResultLobbyMatchList;
