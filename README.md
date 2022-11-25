@@ -4,7 +4,7 @@ A set of source files necessary to compile a linux executable using a steam API 
 # Requirements
 - machine running linux (tested on Ubuntu 22.04, Arch Linux)
 - Steamworks SDK, available [here](https://partner.steamgames.com/downloads/list) (download might require Steam login) - you'll need the **header files** located in *sdk/public/steam/* and the **libsteam_api.so** in *sdk/redistributable_bin/linux64/*
-- installed and running Steam client with a copy of PADAY: The Heist in library, not necessarily installed (only during runtime)
+- installed and running Steam client with a copy of PAYDAY: The Heist in library, not necessarily installed (only during runtime)
 
 # Building
 Build requirements: `curl`, `unzip`, `gcc`, `make`.  
